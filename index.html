@@ -153,13 +153,14 @@
 
   /* skills */
   .skills{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(16px,2.6vw,40px)}
+  .skills.two{grid-template-columns:repeat(2,1fr)}
   .scol{border:1px solid var(--line);border-radius:20px;padding:clamp(22px,2.6vw,34px);background:linear-gradient(180deg,rgba(255,255,255,.03),transparent);transition:border-color .4s,transform .4s var(--ease)}
   .scol:hover{border-color:var(--line-2);transform:translateY(-6px)}
   .scol h4{font-family:"JetBrains Mono";font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--pink);margin-bottom:22px}
   .scol ul{list-style:none;display:grid;gap:12px}
   .scol li{display:flex;justify-content:space-between;gap:12px;font-size:clamp(15px,1.7vw,19px);border-bottom:1px dashed var(--line);padding-bottom:11px}
   .scol li small{color:var(--muted);font-family:"JetBrains Mono";font-size:11.5px}
-  @media(max-width:760px){.skills{grid-template-columns:1fr}}
+  @media(max-width:760px){.skills,.skills.two{grid-template-columns:1fr}}
 
   /* timeline */
   .tl{border-top:1px solid var(--line)}
@@ -213,6 +214,7 @@
     <a href="#about">About</a>
     <a href="#work">Work</a>
     <a href="#stack">Stack</a>
+    <a href="#experience">Experience</a>
     <a href="#journey">Journey</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -224,6 +226,7 @@
   <a href="#about">About</a>
   <a href="#work">Work</a>
   <a href="#stack">Stack</a>
+  <a href="#experience">Experience</a>
   <a href="#journey">Journey</a>
   <a href="#contact">Contact</a>
 </div>
@@ -231,16 +234,16 @@
 <main id="top">
   <section class="hero">
     <div class="wrap">
-      <span class="kick label"><span class="dot"></span> Python Developer — Available for work</span>
+      <span class="kick label"><span class="dot"></span> Python Developer · AI &amp; ML Enthusiast · Full-Stack — Available for work</span>
       <h1>
         <span class="hero-line"><span class="in">Diwanshu</span></span>
         <span class="hero-line"><span class="in">Daware <span class="it">&amp; code</span></span></span>
       </h1>
       <div class="hero-foot">
-        <p>Computer Science student and <strong>Python developer</strong> turning messy data and manual work into smooth, automated software — pipelines, ML models and the APIs behind them.</p>
+        <p>Computer Science Engineering undergraduate and <strong>Python developer</strong> building AI-powered applications, REST APIs, web scraping systems and scalable web platforms with FastAPI, Flask, React.js and SQL databases.</p>
         <div class="r">
-          <span class="label">Core stack</span>
-          <b class="gt">Python · Pandas · Flask · scikit-learn</b>
+          <span class="label">Nagpur, Maharashtra</span>
+          <b class="gt">+91 8999902712 · dp.daware25@gmail.com</b>
         </div>
       </div>
     </div>
@@ -262,14 +265,14 @@
       </div>
       <div class="about">
         <div>
-          <p class="lead reveal">I build <span class="gt">Python</span> that solves real problems — clean code, sensible structure, and tools people actually use.</p>
-          <p class="sub reveal">From air-quality modelling with WRF-Chem, to NLP on faculty feedback, an e-commerce deal aggregator and machine-learning prediction systems — I care about the space where data, automation and good engineering meet.</p>
+          <p class="lead reveal">Computer Science Engineering undergraduate with hands-on experience in <span class="gt">Python</span>, Artificial Intelligence, Machine Learning, backend development, and full-stack web development.</p>
+          <p class="sub reveal">Skilled in developing AI-powered applications, REST APIs, web scraping systems, and scalable web platforms using FastAPI, Flask, React.js, and SQL databases. Completed internships in Artificial Intelligence and UI/UX Design while contributing to open-source software projects.</p>
         </div>
         <div class="stats reveal">
-          <div class="stat"><b data-count="11">0</b><span>Repositories</span></div>
-          <div class="stat"><b data-count="8">0</b><span>Python Projects</span></div>
+          <div class="stat"><b data-count="4">0</b><span>Academic projects</span></div>
+          <div class="stat"><b data-count="4">0</b><span>Certifications</span></div>
           <div class="stat"><b>Python</b><span>Primary language</span></div>
-          <div class="stat"><b>2026</b><span>CSE Student</span></div>
+          <div class="stat"><b>2027</b><span>B.Tech graduation</span></div>
         </div>
       </div>
     </div>
@@ -325,7 +328,16 @@
           </div>
         </article>
         <article class="panel">
-          <div class="art" style="background:linear-gradient(135deg,#141a3a,#20163a)"><span class="blob" style="background:radial-gradient(circle,#5b6bff,#38d9e8)"></span><span class="big">05</span></div>
+          <div class="art" style="background:linear-gradient(135deg,#1a1230,#123040)"><span class="blob" style="background:radial-gradient(circle,#8b5cf6,#38d9e8)"></span><span class="big">05</span></div>
+          <div class="body">
+            <span class="cat">React · Supabase · Gemini AI</span>
+            <h3>EDU.X — Smart Academic ERP</h3>
+            <p>Role-based portals for Students, Teachers, HODs and Super Admins, with Supabase authentication and Google Gemini AI integration.</p>
+            <div class="tags"><span>React.js</span><span>Supabase</span><span>Gemini AI</span></div>
+          </div>
+        </article>
+        <article class="panel">
+          <div class="art" style="background:linear-gradient(135deg,#141a3a,#20163a)"><span class="blob" style="background:radial-gradient(circle,#5b6bff,#38d9e8)"></span><span class="big">06</span></div>
           <div class="body">
             <span class="cat">Python · Regression · Flask</span>
             <h3>Laptop Price Web App</h3>
@@ -335,7 +347,7 @@
           </div>
         </article>
         <article class="panel">
-          <div class="art" style="background:linear-gradient(135deg,#0f241c,#173a2f)"><span class="blob" style="background:radial-gradient(circle,#38d9e8,#8bed6b)"></span><span class="big">06</span></div>
+          <div class="art" style="background:linear-gradient(135deg,#0f241c,#173a2f)"><span class="blob" style="background:radial-gradient(circle,#38d9e8,#8bed6b)"></span><span class="big">07</span></div>
           <div class="body">
             <span class="cat">Python · ML · Security</span>
             <h3>Fraud Detection</h3>
@@ -356,34 +368,76 @@
       </div>
       <div class="skills">
         <div class="scol reveal">
-          <h4>Languages &amp; Core</h4>
+          <h4>Programming</h4>
           <ul>
-            <li>Python <small>expert</small></li>
-            <li>SQL <small>daily</small></li>
+            <li>Python <small>core</small></li>
+            <li>Java <small>core</small></li>
             <li>JavaScript <small>working</small></li>
-            <li>HTML / CSS <small>working</small></li>
-            <li>TypeScript <small>familiar</small></li>
+            <li>SQL <small>daily</small></li>
           </ul>
         </div>
         <div class="scol reveal">
-          <h4>Data &amp; Machine Learning</h4>
+          <h4>Backend</h4>
           <ul>
+            <li>FastAPI <small>APIs</small></li>
+            <li>Flask <small>APIs</small></li>
+            <li>Express.js <small>node</small></li>
+            <li>REST APIs <small>design</small></li>
+          </ul>
+        </div>
+        <div class="scol reveal">
+          <h4>Frontend</h4>
+          <ul>
+            <li>React.js <small>UI</small></li>
+            <li>HTML5 <small>markup</small></li>
+            <li>CSS3 <small>styling</small></li>
+            <li>Vite <small>build</small></li>
+          </ul>
+        </div>
+        <div class="scol reveal">
+          <h4>Databases</h4>
+          <ul>
+            <li>MySQL <small>relational</small></li>
+            <li>PostgreSQL <small>relational</small></li>
+            <li>Supabase <small>backend</small></li>
+          </ul>
+        </div>
+        <div class="scol reveal">
+          <h4>AI / ML</h4>
+          <ul>
+            <li>Scikit-learn <small>ML</small></li>
             <li>Pandas · NumPy <small>data</small></li>
-            <li>Matplotlib <small>viz</small></li>
-            <li>scikit-learn <small>ML</small></li>
-            <li>TensorFlow <small>deep learning</small></li>
-            <li>SciPy <small>scientific</small></li>
+            <li>NLP <small>text</small></li>
+            <li>Random Forest <small>models</small></li>
           </ul>
         </div>
         <div class="scol reveal">
-          <h4>Backend &amp; Tools</h4>
+          <h4>Tools</h4>
           <ul>
-            <li>Flask · FastAPI <small>APIs</small></li>
-            <li>Django <small>framework</small></li>
-            <li>MySQL · SQLite <small>databases</small></li>
             <li>Git &amp; GitHub <small>versioned</small></li>
-            <li>Docker · Selenium <small>ops</small></li>
+            <li>Playwright <small>automation</small></li>
+            <li>Postman <small>API testing</small></li>
+            <li>VS Code · Figma <small>daily</small></li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="wrap">
+      <div class="shead reveal">
+        <h2 data-split>Work <span class="it">experience</span></h2>
+        <span class="label">(04) — Internships</span>
+      </div>
+      <div class="tl">
+        <div class="ti reveal">
+          <div class="when">Apr 2026 — Jul 2026<br>3 Months</div>
+          <div><h4>AI Intern</h4><div class="org">InternElite</div><p>Developed AI-powered applications using Python, FastAPI, Scikit-learn, Pandas, and NumPy. Built REST APIs and integrated machine learning models into full-stack applications.</p></div>
+        </div>
+        <div class="ti reveal">
+          <div class="when">Jul 2025 — Aug 2025</div>
+          <div><h4>UI/UX Designer Intern</h4><div class="org">HealBharat</div><p>Designed user-friendly interfaces, wireframes, and prototypes while improving overall application usability.</p></div>
         </div>
       </div>
     </div>
@@ -393,20 +447,40 @@
     <div class="wrap">
       <div class="shead reveal">
         <h2 data-split>Journey &amp; <span class="it">education</span></h2>
-        <span class="label">(04) — Timeline</span>
+        <span class="label">(05) — Education, achievements &amp; certs</span>
       </div>
       <div class="tl">
         <div class="ti reveal">
-          <div class="when">20XX — Present</div>
-          <div><h4>B.E. Computer Science Engineering</h4><div class="org">Your College / University</div><p>Add your degree, coursework and CGPA from your resume.</p></div>
+          <div class="when">2023 — 2027</div>
+          <div><h4>B.Tech in Computer Science Engineering</h4><div class="org">Hi-Tech Institute of Technology — Currently in Third Year</div></div>
         </div>
         <div class="ti reveal">
-          <div class="when">20XX — 20XX</div>
-          <div><h4>Python Developer — Intern / Freelance</h4><div class="org">Company / Organisation</div><p>Add your internship or freelance work, responsibilities and results from your resume.</p></div>
+          <div class="when">Feb 2023</div>
+          <div><h4>Higher Secondary Certificate (Class XII)</h4><div class="org">Maharashtra State Board of Secondary and Higher Secondary Education, Pune</div></div>
         </div>
         <div class="ti reveal">
-          <div class="when">20XX</div>
-          <div><h4>Certifications &amp; Achievements</h4><div class="org">Issuer / Event</div><p>Add certifications, awards and hackathons from your resume.</p></div>
+          <div class="when">Mar 2021</div>
+          <div><h4>Secondary School Certificate (Class X)</h4><div class="org">Chhattisgarh Board of Secondary Education, Raipur</div><p>554/600 (92.33%)</p></div>
+        </div>
+      </div>
+
+      <div class="skills two" style="margin-top:clamp(40px,6vw,70px)">
+        <div class="scol reveal">
+          <h4>Achievements &amp; Leadership</h4>
+          <ul>
+            <li>Smart India Hackathon Participant — Team Civic Lens · Problem Statement ID 25031 · Clean &amp; Green Technology <small>2025</small></li>
+            <li>Smart India Hackathon Participant — Team Dark_Behold · Problem Statement ID 1674 · Blockchain &amp; Cybersecurity <small>2024</small></li>
+            <li>Served as Social Media Handler for college events and technical activities <small>Lead</small></li>
+          </ul>
+        </div>
+        <div class="scol reveal">
+          <h4>Certifications</h4>
+          <ul>
+            <li>Artificial Intelligence Fundamentals <small>IBM SkillsBuild</small></li>
+            <li>Postman API Fundamentals Student Expert <small>Postman</small></li>
+            <li>UI/UX Design with Figma: 5+ Real World Projects <small>Udemy</small></li>
+            <li>Artificial Intelligence Internship <small>InternElite</small></li>
+          </ul>
         </div>
       </div>
     </div>
